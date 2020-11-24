@@ -3,3 +3,11 @@ require_relative "../lib/dancer.rb"
 
 puts Kid.metadata
 puts Dancer.metadata
+
+angelina = Dancer.new("Angelina")
+angelina.twirl
+angelina.jump
+
+buster = Kid.new("Buster")
+buster.jump
+buster.take_a_bow
